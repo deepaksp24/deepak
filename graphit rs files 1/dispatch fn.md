@@ -30,10 +30,19 @@ if EDITOR_HAS_CRASHED.load(Ordering::SeqCst) {
             return;
         }
 ```
-this checj if the app has crashed , if yes it return else continue with excution
+this check if the app has crashed , if yes it return else continue with excution
 
 ```
 let frontend_messages = editor(|editor| editor.handle_message(message.into()));
 ```
+
 editor(|editor| editor.handle_message(message.into())); 
-this looks cryptic lets see, that is closure [[closure]].
+this looks cryptic lets see, that is closure . to know about closur go to this [[closure]].
+
+Ok in the code we going to see is some what confusing because there are editor 3 time. and there is function in body .
+
+ok the first editor is a function  that take another function as input  and its **type is editor**.
+so where is there function editor [[Editor function]]
+
+and  second `editor` is a struct type editor
+[[Editor struct]]
