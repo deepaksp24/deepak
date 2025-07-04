@@ -1,3 +1,6 @@
+```
+Graphite\frontend\wasm\src\editor_api.rs
+```
 
 
 **method that updates the primary color** 

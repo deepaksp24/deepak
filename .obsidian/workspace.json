@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "24b7e4f89d4778ee",
+        "id": "2c69ca5decec16df",
         "type": "tabs",
+        "dimension": 72.43788819875776,
         "children": [
           {
-            "id": "44f65b7b7b73a79b",
+            "id": "521e1e73c94c1c0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,41 +23,13 @@
             }
           },
           {
-            "id": "4fe1f0dc91768b81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "graphit rs files 1/rust concepts/closure.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "closure"
-            }
-          },
-          {
-            "id": "54daf54244b82bdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "graphit rs files 1/Editor function.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Editor function"
-            }
-          },
-          {
-            "id": "3066faed75411474",
+            "id": "2f2e9b40a26a0a86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "graphit rs files 1/dispatch fn.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,21 +37,111 @@
             }
           },
           {
-            "id": "8bcedbbdac7adcfe",
+            "id": "f7a92279034c56e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "graphit rs files 1/Editor function.md",
+                "file": "graphit rs files 1/Editor struct.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Editor function"
+              "title": "Editor struct"
             }
           },
           {
-            "id": "25923a2177afb677",
+            "id": "992fa1eaea60d1bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "graphit rs files 1/handle message form dispatcher struct.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "handle message form dispatcher struct"
+            }
+          },
+          {
+            "id": "20f6993473778549",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "graphit rs files 1/Message Match Handling Explained.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Message Match Handling Explained"
+            }
+          },
+          {
+            "id": "192a653943a940d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "graphit rs files 1/handle message form dispatcher struct.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "handle message form dispatcher struct"
+            }
+          },
+          {
+            "id": "19072dde12aa7127",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "ab78a4036eb33791",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "graphit rs files 1/Message Match Handling Explained.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Message Match Handling Explained"
+            }
+          },
+          {
+            "id": "17463ba54504f8f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "graphit rs files 1/Primary color method.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Primary color method"
+            }
+          }
+        ],
+        "currentTab": 7
+      },
+      {
+        "id": "58d27b6373960a38",
+        "type": "tabs",
+        "dimension": 27.562111801242235,
+        "children": [
+          {
+            "id": "7347ccd06ec064dc",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -87,8 +150,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 203.5
   },
   "right": {
     "id": "9a33871cab16b172",
@@ -227,22 +289,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "8bcedbbdac7adcfe",
+  "active": "7347ccd06ec064dc",
   "lastOpenFiles": [
-    "Editor struct.md",
-    "graphit rs files 1/dispatch fn.md",
-    "graphit rs files 1/Editor function.md",
-    "graphit rs files 1/rust concepts/closure.md",
+    "graphit rs files 1/Message Match Handling Explained.md",
+    "graphit rs files 1/handle message form dispatcher struct.md",
     "graphit rs files 1/Primary color method.md",
+    "graphit rs files 1/dispatch fn.md",
+    "graphit rs files 1/Editor struct.md",
+    "graphit rs files 1/Editor function.md",
     "graphit rs files 1/primary_color.to_linear_srgb(),.md",
+    "graphit rs files 1/rust concepts/closure.md",
     "graphit rs files 1/rust concepts",
     "Welcome.md",
     "graphit rs files 1"
