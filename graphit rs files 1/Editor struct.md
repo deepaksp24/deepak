@@ -24,20 +24,4 @@ impl Editor {
 }
 ```
 
-here you can see Editor  it’s a **struct type** and it has field named `dispatcher`  and it has function called handle_message . and here we go again it calling another function looks like function chaining  
-
-
-```
-imple Dispacter{
-
-	pub fn handle_message<T: Into<Message>>(&mut self, message: T, process_after_all_current: bool) {
-        let message = message.into();
-        // Add all additional messages to the buffer if it exists (except from the end buffer message)
-        if !matches!(message, Message::EndBuffer(_)) {
-            if let Some(buffered_queue) = &mut self.buffered_queue {
-                Self::schedule_execution(buffered_queue, true, [message]);
-                return;
-            }
-        }
-	 }
-```
+here you can see Editor  it’s a **struct type** and it has field named `dispatcher`  and it has function called handle_message . and here we go again it calling another function looks like function chaining  [[handle message form dispatcher struct]]. this handles all the message 
